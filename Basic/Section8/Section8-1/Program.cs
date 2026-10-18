@@ -8,9 +8,9 @@
 
             for (var a = 1; a <= loopCount; a++)
             {
-                for (var b = 1; b < loopCount; b++)
+                for (var b = 1; b <= loopCount; b++)
                 {
-                    for (var c = 1; c < loopCount; c++)
+                    for (var c = 1; c <= loopCount; c++)
                     {
                         if ((a * a) + (b * b) == (c * c))
                         {

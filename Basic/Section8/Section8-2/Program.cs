@@ -1,4 +1,4 @@
-﻿namespace Section8_1
+﻿namespace Section8_2
 {
     public class Program
     {
@@ -8,11 +8,11 @@
 
             for (var a = 1; a <= loopCount; a++)
             {
-                for (var b = 1; b < loopCount; b++)
+                for (var b = 1; b <= loopCount; b++)
                 {
                     if (a >= b) continue;
 
-                    for (var c = 1; c < loopCount; c++)
+                    for (var c = 1; c <= loopCount; c++)
                     {
                         if (b >= c) continue;
 
